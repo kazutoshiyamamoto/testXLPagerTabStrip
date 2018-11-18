@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		703F6AC6BB0694972E70E67A /* Pods_testXLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54909A57BBF73BDA85DAD61 /* Pods_testXLPagerTabStrip.framework */; };
 		FD759B4121A12C660002C18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759B4021A12C660002C18A /* AppDelegate.swift */; };
-		FD759B4321A12C660002C18A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759B4221A12C660002C18A /* ViewController.swift */; };
+		FD759B4321A12C660002C18A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD759B4221A12C660002C18A /* MainViewController.swift */; };
 		FD759B4621A12C660002C18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD759B4421A12C660002C18A /* Main.storyboard */; };
 		FD759B4821A12C680002C18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD759B4721A12C680002C18A /* Assets.xcassets */; };
 		FD759B4B21A12C680002C18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD759B4921A12C680002C18A /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		C54909A57BBF73BDA85DAD61 /* Pods_testXLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testXLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD759B3D21A12C660002C18A /* testXLPagerTabStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testXLPagerTabStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD759B4021A12C660002C18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD759B4221A12C660002C18A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD759B4221A12C660002C18A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FD759B4521A12C660002C18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD759B4721A12C680002C18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD759B4A21A12C680002C18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				FD759B4021A12C660002C18A /* AppDelegate.swift */,
-				FD759B4221A12C660002C18A /* ViewController.swift */,
+				FD759B4221A12C660002C18A /* MainViewController.swift */,
 				FD759B4421A12C660002C18A /* Main.storyboard */,
 				FD759B4721A12C680002C18A /* Assets.xcassets */,
 				FD759B4921A12C680002C18A /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD759B4321A12C660002C18A /* ViewController.swift in Sources */,
+				FD759B4321A12C660002C18A /* MainViewController.swift in Sources */,
 				FD759B4121A12C660002C18A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +351,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJ3WL36QU;
 				INFOPLIST_FILE = testXLPagerTabStrip/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.testXLPagerTabStrip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -367,7 +370,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJ3WL36QU;
 				INFOPLIST_FILE = testXLPagerTabStrip/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.testXLPagerTabStrip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

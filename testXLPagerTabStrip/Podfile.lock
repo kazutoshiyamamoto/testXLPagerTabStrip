@@ -1,5 +1,5 @@
 PODS:
-  - XLPagerTabStrip (8.0.1)
+  - XLPagerTabStrip (8.1.0)
 
 DEPENDENCIES:
   - XLPagerTabStrip
@@ -9,7 +9,7 @@ SPEC REPOS:
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
-  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
 
 PODFILE CHECKSUM: 1d0f6ba7cad0cc38f4de73cb50ea375279338a21
 
